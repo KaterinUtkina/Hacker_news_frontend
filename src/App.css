@@ -1,0 +1,58 @@
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "PT Sans N";
+    src: local("../font/ptsansnarrow.woff2")
+}
+
+body {
+    font-family: "PT Sans N", Arial, sans-serif;
+}
+
+.app_overlay {
+    display: block;
+    margin: 0;
+    padding: 50px 0;
+    min-width: 100vh;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #E3E2DF;
+}
+
+.app_wrapper_content {
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+li {
+    list-style-type: none;
+}
+
+button,
+button:active,
+button:focus {
+    outline: none;
+    border: none;
+}
+
+.story_time {
+    width: 120px;
+    height: 70px;
+    background: #8860D0;
+    border-radius: 0 20px;
+    color: white;
+    text-align: center;
+}
+
+.story_time .story_time_hours {
+    margin-top: 5px;
+    font-size: 30px;
+}

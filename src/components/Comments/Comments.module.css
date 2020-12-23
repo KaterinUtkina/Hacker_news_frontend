@@ -1,0 +1,23 @@
+.comment_author {
+    font-size: 20px;
+    color: white;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 5px;
+    background: #8860D0;
+}
+
+.comment_text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.button_comment{
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.stl.button_text{
+    font-size: 22px ;
+}
